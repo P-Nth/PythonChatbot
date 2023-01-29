@@ -1,0 +1,36 @@
+{"dictionary": [
+    {"tag": "greetings",
+      "patterns" :["hello", "hi", "what's up?", "hello", "how are you doing?", "good day", "hi there" ],
+      "responses":["Hello!", "Hey!", "Hi there, how can I help?"
+    ]},
+    {"tag": "goodbye",
+      "patterns" :["cya", "bye", "see you later", "goodbye", "Have a Good Day", "Till next time" ],
+      "responses":["See you!", "Have a nice day", "Bye! Come back again soon."
+    ]},
+    {"tag": "name",
+      "patterns" :["What's your name?", "Who are you?", "what should I call you?", "Who are you?"],
+      "responses":["I'm chatbot", "Call me Chatbot", "I'm Chatbot"
+    ]},
+    {"tag": "thanks",
+      "patterns" :["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses":["Happy to help!", "Any time!", "My pleasure"
+    ]},
+    {"tag": "timetable",
+      "patterns" :["what classes do i have today"],
+      "responses":["Artificial Intelligence", "Mobile Computing", "Computer Graphics"
+    ]},
+    {"tag": "schedule",
+      "patterns" :["when do i have my Artificial Intelligence classes?", "what units am i taking?"],
+      "responses":["Mondays and Thursdays noon", "Tuesday mornings", "Friday mornings"
+    ]},
+    {"tag": "fee balance",
+      "patterns" :["what is my fee balance?"],
+      "responses":["You have a fee balance of 15000 kshs", "You have a fee balance of 2000 kshs",
+        "You have a fee balance of 150000 kshs"
+    ]},
+    {"tag": "notices",
+      "patterns" :["What school activities can I participate in?"],
+      "responses":["Satuk meeting on Fridays", "Nature walk on Saturday",
+        "Church Service on sunday"
+    ]}
+]}
